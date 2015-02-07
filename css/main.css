@@ -224,7 +224,7 @@ margin-top: 75px;
 opacity: .75;
 float: right;
 margin: auto;
-filter: alpha(opacity=0);
+/*filter: alpha(opacity=0);*/
 }
 
 .We-Are-CFNV {
