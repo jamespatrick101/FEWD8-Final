@@ -1,0 +1,557 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+}
+a {
+color: #2a484f;
+text-decoration: none;
+transition: all 500ms;
+}
+a:hover {
+color: #3bb0d6;
+}
+body {
+/*border-top: 5px solid #3bb0d6;*/
+}
+footer {
+padding: 0px 0px 100px 30px;
+}
+
+#header {
+width: 100%;
+margin: auto;
+background-color: white;
+height: 640px;
+background-color: #ffffff;
+background-repeat: no-repeat;
+background-position: top center;
+
+}
+
+.main-nav {
+background-color:#3bb0d6;
+height:5px;
+margin:auto;
+}
+
+.main-nav ul {
+margin:0 auto;
+width: 1000px;
+list-style: none;
+}
+
+.main-nav li {
+float: left;
+}
+
+.main-nav a {
+padding: 20px 15px 0 15px;
+text-align:center;
+font-size: 14px;
+display:inline-block;    
+}
+
+
+
+
+
+.mobile-nav {
+background-color:#3bb0d6;
+height:5px;
+margin:auto;
+}
+
+.mobile-nav ul {
+margin:0 auto;
+width: 1000px;
+list-style: none;
+}
+
+.mobile-nav li {
+float: left;
+}
+
+.mobile-nav a {
+padding: 20px 15px 0 15px;
+text-align:center;
+font-size: 14px;
+display:inline-block;    
+}
+
+
+
+
+
+
+
+
+
+
+.logo {
+display:inline-block;
+width:200px;
+margin-top:-62px;
+padding: 0;
+}
+
+.main-nav2 {
+margin-top:-50px;
+margin-bottom: 50px;
+padding: 0;
+text-align: center;
+}
+
+.logo2 {
+display:inline-block;
+width:170px;
+margin-top:-85px;
+padding: 0;
+}
+
+.CFNV-Title {
+color: #3bb0d6;
+/*font-family: 'Vincent-Regular';*/
+font-family: 'Oswald', sans-serif;
+/*font-size: 11em;*/
+font-size: 8.1em;
+/*line-height: .78;*/
+line-height: .875;
+margin-top: 225px;
+text-decoration: none;
+text-transform: uppercase;
+text-align: center;
+padding: 50px;
+}
+
+.Content {
+min-height: 400px;
+padding: 30px;
+}
+
+.Content h1 {
+color: #2a484f;
+font-family: 'Oswald', sans-serif;
+font-size: 4em;
+padding: 50px 5px 50px 5px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.Content h2 {
+color: #2a484f;
+font-family: 'Oswald', sans-serif;
+font-size: 2em;
+padding-top: 25px;
+/*text-align: center;*/
+text-transform: uppercase;
+}
+
+.Content p {
+color: #2a484f;
+font-size: 18px;
+line-height: 2em;
+}
+
+.About-Us {
+background-color: #D3D3D3;
+}
+
+.CF-101 {
+background-color: #4fc2e5;
+}
+
+/*
+.kb {
+float: left;
+padding-top: 100px;
+width: 50px;
+margin-right: 25px;
+background: url(images/kb.svg) no-repeat;
+}*/
+
+.What-is-Crossfit h1 {
+text-align: left;
+}
+
+.What-is-Crossfit {
+float: right;
+margin-top: 75px;
+}
+
+.Crossfit-lift-circle img {
+opacity: .75;
+float: right;
+margin: auto;
+filter: alpha(opacity=0);
+}
+
+.We-Are-CFNV {
+margin: auto;
+width: 50px;
+background: url(images/bolt.svg) no-repeat;
+}
+
+.We-Are-CFNV img {
+margin: auto;
+}
+
+.Coaches {
+background-color: #4fc2e5;
+}
+
+.head-coaches ul {
+list-style: none;
+display: block;
+position: relative;
+text-align: center;
+padding-bottom: 20px;
+margin: auto;
+}
+
+.coach-chris img {
+margin: 0 auto;
+width: 50%;
+}
+
+/*
+.coach-tina img {
+width: 21%;
+}
+*/
+.Contact {
+background-color: #D3D3D3;
+}
+
+.Get-Started {
+background-color: #4fc2e5;
+}
+
+
+.class-sked ul li {
+list-style: none;
+}
+
+.day {
+font-size: 21px;
+text-transform: uppercase;
+margin-top: 15px;
+}
+
+.The-WOD {
+background-color: #D3D3D3;
+}
+
+.address {
+line-height: 2px;    
+}
+
+p.legal {
+font-size: 9px;
+}
+
+.barbell {
+opacity: .5;
+}
+
+.slick-carousel {
+border: 10px solid #4fc2e5;
+width: 100%; 
+max-height: 600px; 
+overflow: hidden; 
+position: relative;  
+}
+
+.slick-carousel img { 
+width: 100%;
+}
+
+.hamburger {
+display: block;
+font-size: 3em;
+margin: .2em;
+text-decoration: none;
+text-align: right;
+}
+
+.full-address p {
+line-height: .8px;
+text-align: center;
+}
+
+.contact .content {
+position: relative;
+}
+
+#map {
+position: relative;
+text-align: center;
+}
+
+.google-map {
+margin: 0 auto;
+}
+
+.cd-top {
+background-color: #2a484f;
+border-radius: 5px;
+width: 100px;
+margin: 25px 25px 0 0;
+padding: 12px;
+color: #D3D3D3;
+text-align: right;
+float: right;
+text-align: center;
+text-transform: uppercase;
+}
+
+.tag {
+    text-align: left;
+}
+
+.full-address .bolt {
+    width: 10px;
+    margin: 0 auto;
+}
+
+
+/* ============== James: Media Queries ============== */
+
+
+@media screen and (max-width: 845px) {
+    .main-nav ul li {
+        display: none; }
+    .CFNV-Title {
+        margin: auto;
+        padding: 68px; }
+    .What-is-Crossfit img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 846px) {
+    .hamburger {
+        display: none; 
+    }
+    .main-nav2 {
+        display: none; 
+    }
+    .dropdown-toggle {
+        display: none; }
+    }
+    .mobile-nav ul li {
+        display: none;
+    } 
+
+    .cf:before,
+    .cf:after {
+        content: " ";
+        display: table;
+    }
+
+    .cf:after {
+        clear: both;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== 
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
