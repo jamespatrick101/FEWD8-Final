@@ -221,10 +221,10 @@ margin-top: 75px;
 }
 
 .Crossfit-lift-circle img {
-opacity: .75;
+opacity: .5;
 float: right;
 margin: auto;
-/*filter: alpha(opacity=0);*/
+filter: alpha(opacity=0);
 }
 
 .We-Are-CFNV {
